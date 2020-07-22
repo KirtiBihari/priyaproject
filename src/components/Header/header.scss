@@ -1,0 +1,40 @@
+.navbar {
+  box-shadow: none !important;
+  height: 40px;
+  .nav-item {
+    a {
+      color: #f2f2f2 !important;
+    }
+    a.active {
+      background-color: #f2f2f2;
+      box-shadow: none;
+      border-radius: 6px 6px 0px 0px;
+      position: relative;
+      top: 0px;
+      color: #414141 !important;
+      height: 56px;
+      padding: 15px;
+      font-weight: 500;
+    }
+  }
+
+  .nav-item.logout a.active {
+    background: transparent;
+  }
+  .profile {
+    position: absolute;
+    right: 110px;
+    width: 120px !important;
+    text-transform: capitalize;
+    color: #fff;
+    .avatar {
+      background: url('../../assets/img/user.png') 0% center no-repeat;
+      height: 32px !important;
+      width: 32px !important;
+      display: block;
+      float: left;
+      margin-right: 12px !important;
+      margin-top: -4px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.footer {
+    margin-top: 20px;
+    background: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.right {
+    flex-grow: 1;
+    color: #878787;
+    font-size: 12px;
+}
+footer.page-footer {
+    bottom: 0;
+    color: #f2f2f2;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    font-size: 14px;
+}

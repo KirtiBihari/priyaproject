@@ -1,0 +1,228 @@
+/* 
+
+/* template builder css starts here */
+ .accordion.panel-group .card{ border-radius: 0px !important; border: none !important;}
+.accordion.panel-group .card .card-header{ padding: 0px !important;}
+.form-builder-group-header{border: none !important; border-radius: 0px !important;}
+
+.drag-copy{background: #fafafa !important; margin:10px auto !important; width: 90%;
+    box-shadow: none;
+    color: #414141 !important;
+    line-height: 24px;
+    text-transform: capitalize;}
+
+.card-body .row .col-md-2 div span{background-color: #ffffff !important;}
+
+.btn.drag-copy {text-align: center !important; padding-left: 15px !important;}
+
+.btn.drag-copy{ box-shadow: none !important; background-color: #f2f2f2 !important; }
+.drag-container{background: #fcfcfc; max-width: 82.333333%;}
+
+.card-header:first-child{border-radius: 0px;}
+#group-basic{width: 99.5%; }
+.card-header button.btn{    box-shadow: none !important;
+    padding: 0 !important;
+    background: #197c92;
+    color: #ffffff;
+    width: 99.5%;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.bpp-properties-entry.bpp-checkbox input[type="checkbox"]{ opacity: 1 !important; margin-top: 4px; }
+.bpp-properties-entry.bpp-checkbox label{padding-left: 15px;}
+
+
+/*#group-panel-advanced .builder-group-button{background:#f0b0b2 !important; width: 99.5%;}
+#group-container-advanced{background: #f4cbc8;}
+
+#group-panel-layout .builder-group-button{background: #dae295 !important; width: 99.5%;}
+#group-container-layout{background: #f2f6cd;}
+
+#group-panel-data .builder-group-button{background: #fce2a1 !important; width: 99.5%; }
+#group-container-data{background: #fff0c9;}*/
+
+.formio-component.formio-component-htmlelement { margin-top: 1.5rem !important;}
+/* .alert-info{background: #FFF3E0 !important; border: 1px solid #FFE0B2; border-style: dotted !important; color: #414141 !important;} */
+.formio-dialog.formio-dialog-theme-default{padding-top: 3% !important;}
+.formio-dialog.formio-dialog-theme-default .formio-dialog-content{width: 70% !important; background-color: #fff !important;}
+.formio-dialog.formio-dialog-theme-default .formio-dialog-close {
+    border: none;
+    background: none !important;
+    cursor: pointer;
+    position: absolute;
+    right: -6px;
+    top: -6px;
+    box-shadow: none;
+    padding: 10px 15px !important;
+    margin: 0px !important;
+}
+.formio-dialog .formio-dialog-content .row{ margin-left: -10px !important; margin-right: -10px !important; }
+/* .formio-dialog-content{height: 550px; overflow-y: scroll;} */
+.component-settings .nav>li>a{color: #414141 !important; font-size: 14px;}
+p.lead{font-size: 16px; font-weight: bold !important; padding-top: 5px; color: #414141;}
+.form-control{font-size: 14px !important; background: none; border-bottom: 1px solid #d5d5d5; color: #414141 !important;}
+h4.card-title.panel-title{font-size: 16px; font-weight: 400; color: #414141;} 
+/*.panel-title{border-bottom: 2px solid #ffffff !important;} */
+.choices__list--single .choices__item{font-size: 14px; padding-left: 4px;}
+.card.panel.panel-default.preview-panel{margin-top: 15px;}
+.nav-tabs .nav-link.active{font-weight: bold;}
+.card.panel.panel-default.preview-panel .card-header{border: none; background: #4a535a;}
+.accordion.panel-group .btn-primary{font-size: 12px !important;}
+
+.formio-dialog-content a i{position: relative; top: -5px; left: -20px; display: none;}
+.btn-primary:not([disabled]):not(.disabled):active{color: #fff !important;}
+.alert-success{padding-bottom: 0px;}
+#eifc44{width: 100%; font-weight: 400;}
+.card-body h3 strong{font-size: 18px !important;}
+.control-label span{font-size: 14px !important; color: #414141; font-weight: 400;}
+.formio-component-clearOnRefresh.checkbox{width: 100%;}
+.btn-block {padding: 6px 0px !important; text-align: center !important; width: 90%;}
+.btn-block i{margin-right: 15px; padding-bottom: 5px;}
+.btn.drag-copy{text-align: left !important; padding-left: 15px !important;}
+.btn .fa{top: 1px;}
+.card-body .row .col-md-2 div span{padding: 0px; border: none; padding-top: 10px !important;}
+.btn-mdb-color{text-transform: capitalize !important; height: 36px; font-size: 1em;}
+table.table th{background: #4a535a; color: #f2f2f2 !important; padding-top: .6rem; padding-bottom: .6rem;}
+.wizard-card .icon-circle [class*="fa-"]{top: 12px;}
+.icon-circle{cursor: pointer;}
+.wizard-card .icon-circle.checked{border-color: #689F38 !important; margin-bottom: 15px; top: 12px; color: #689F38;}
+.wizard-card .active .icon-circle.checked{background: #689F38 !important;}
+.steps-step.active .fa{font-size: 22px;}
+.steps-form .fa{font-size: 22px;}
+.card-body.wizard-card h3 strong{font-size: 21px; color: #414141;}
+.data h5{text-transform: uppercase;}
+.wizard-card .icon-circle {width: 50px; height: 50px; top: -2px;}
+.tile.checked{color: #414141 !important;}
+.formio-dialog.formio-dialog-theme-default{padding-bottom: 0px !important;}
+/* #group-container-basic, #group-container-advanced, #group-container-layout, #group-container-data{height: 208px; overflow-y: scroll;} */
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    position: absolute;
+    pointer-events: auto !important;
+    z-index: 100;
+}
+.card-header.panel-heading.form-builder-group-header{margin-bottom: 1px;}
+
+/* .bg-default{ background: #4a535a !important; border: none !important;} */
+.bg-default {
+    background-color: #00BCD4 !important;
+    color: #fff;
+}
+h4.card-title.panel-title{color: #ffffff !important;}
+.card-body h4{border-bottom: none !important; padding-bottom: 0px !important;}
+.formio-component-hideLabel label span{position: relative; top: 2px;}
+
+.form-check.checkbox label input{ opacity: 1;}
+.formio-collapse-icon {
+    color: #f2f2f2 !important;
+    font-size: 1em;
+    /* border: 1px solid #ccc; */
+    border-radius: .4em;
+    padding: .0em .6em !important;
+    vertical-align: baseline;
+    line-height: 28px;
+}
+
+.btn-default.formio-button-remove-row{padding: 5px 12px !important; background-color: #4a535a !important;}
+.formio-button-remove-row .glyphicon{font-size: 18px;}
+.control-label .glyphicon{top: 2px;}
+.glyphicon{font-size: 14px; line-height: 24px;}
+.btn.btn-xxs{padding: 6px !important; height: 24px !important; width: 24px !important; border-radius: 4px !important;}
+.side-nav-top {min-height: 900px;}
+
+.select-wrapper + label {
+    top: 6px !important;
+    font-size: 0.8rem !important;
+    color: #2d46b5 !important;
+}
+
+.choices[data-type*=select-one] .choices__button {
+    /* background-image: url(/static/media/cross-inverse.46980de8.svg); */
+    background-size: 9px !important;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -15px !important;
+    margin-right: 23px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10em;
+    opacity: .5;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.choices__item.choices__item--selectable.choices__placeholder .choices__button{ margin-top: -10px !important;}
+
+.choices__list button {
+    position: absolute;
+    right: -5px;
+    top: 3px;
+    font-size: 12px;
+    background: #FFCCBC;
+    border: 1px solid #FF7043;
+    border-radius: 6px;
+}
+
+.colorful-select .dropdown-content li.active span{box-shadow: none !important;}
+.colorful-select .dropdown-content li span:hover {box-shadow: none !important;}
+.dropdown .dropdown-menu .dropdown-item:hover{box-shadow: none !important;}
+
+/*.md-form label{ color: #2d46b5 !important; }*/
+
+/* Paintbrusg */
+.contentb{border: 1px solid #d5d5d5; border-width: thin !important; margin-top: 10px; position: relative;}
+#properties-panel{top: 0px !important;}
+.djs-palette{top: 0px !important; left: 0px !important; border-left: none !important; border-top: none !important; height: 70vh;}
+.djs-palette .entry{ color: #414042; font-size: 24px !important; line-height: 35px !important; color: #414042; border: 1px solid #d5d5d5; border-radius: 4px; margin: 3px !important; background: #fff; line-height: 34px; height: 40px !important; width: 40px !important;}
+.djs-palette .separator{margin-bottom: 5px !important;}
+.djs-palette.two-column.open {width: 93px !important;}
+.djs-palette-entries .group{margin-top: 3px;}
+.io-editing-tools{top: 50px !important; right: 278px !important;}
+.io-control{box-shadow: none !important; border: 1px solid #d5d5d5; border-radius: 4px !important; border-width: thin !important; width: 38px !important; text-align: center;}
+.io-zoom-controls {right: 284px !important; position: absolute !important; top: 100px !important;}
+.io-control-list{margin-bottom: 8px !important;}
+ul.bpp-properties-tabs-links > li > a {font-size: 12px !important; padding: 4px 6px !important;}
+.bpp-properties-header > .label{font-size: 110% !important;}
+.bpp-properties-group > .group-label{font-style: normal !important; font-size: 100% !important;}
+.bpp-field-description{font-size: 12px !important; color: #666 !important;}
+.bpp-properties-panel [type=text]{border: none !important; border-bottom: 1px solid #d5d5d5 !important; font-size: 14px !important;}
+.bpp-properties-panel label{font-weight: normal !important; font-size: 12px !important; color: #2d46b5 !important;}
+.bpp-properties-panel [contenteditable]{border: none !important; border-bottom: 1px solid #d5d5d5 !important; font-size: 14px !important; background: none !important;}
+.bpp-error-message{font-size: 12px !important;}
+.bpp-properties-panel button{border: none !important;}
+.bpp-table-row > label.bpp-table-row-columns-2{width: 45% !important;}
+.bpp-properties-group{background: #fafafa !important;}
+.bpp-properties-tab-bar { border-bottom: 1px solid #ccc; padding: 0 15px; background: #7986CB !important; margin-top: -5px;}
+.bpp-properties-header { padding: 12px 15px !important; padding-bottom: 5px; background: #7986CB !important; color: #fff !important;}
+ul.bpp-properties-tabs-links > li.bpp-active a {border-top: 2px solid #52B415; border-bottom: none; color: #414040 !important; background: #fafafa !important;}
+ul.bpp-properties-tabs-links > li > a {background: #fff !important;}
+#properties-panel{background: #fafafa !important;}
+.bpp-properties-group select{display: block !important; border: none !important; border-radius: 0px !important;}
+.bpp-properties-tab-bar:not(.scroll-tabs-overflow) .scroll-tabs-button{display: block !important;}
+.bpp-properties-tab-bar .scroll-tabs-button{color: #fff !important;}
+.bpp-element-list button.add{box-shadow: none !important;}
+.bpp-properties-group select{color: #414141 !important;}
+.bpp-field-wrapper select{color: #414141 !important;}
+.side-nav .collapsible-body a{padding-left: 20px !important;}
+/*.side-nav .collapsible-body a span{font-size: 13px !important;}*/
+.formio-disabled-input button{background: #ccc !important; opacity: 0.6 !important;}
+.formio-disabled-input label{color: #000 !important; opacity: 0.3 !important;}
+#root .main-panel .content{padding-top: 0px !important;}
+.btn-success.submit-success{height: 40px !important;}
+.form-control.flatpickr-input.input{box-shadow: none !important; padding-left: 15px;}
+input.form-control{box-shadow: none !important;}
+.choices[data-type*=select-one] .choices__button{top: 70% !important;}
+.formio-component-reject .btn-primary{ background-color: #E64A19 !important; }
+.formio-component-cancel .btn-primary{ background-color: #4a535a !important; }
+.formio-component-select .form-control{ margin-top: -8px; }
+.card-body.card-body-cascade .pt-4 button{background-color: #4a535a !important; height: 36px !important; line-height: 22px;}
+.card-body.card-body-cascade .pt-4 input:nth-child(3){background-color: #E64A19 !important; } 
+
+
+
+
+
+/* template builder css ends here */ 

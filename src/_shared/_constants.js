@@ -1,0 +1,82 @@
+export const ApiUrls = {
+  url: 'http://35.177.210.58:8080/',
+  auth: 'user/login',
+  logout: 'user/logout',
+  userApps: '/user/userApps',
+  tasks: '/tasks',
+  adminSideNav: '/configs/system/apps/sidenav/admin_settings',
+  appManagerSideNav: '/configs/system/apps/sidenav/app_manager',
+
+  orgs: '/orgs',
+  orgExist: '/orgs/exists',
+  orgCreate: '/orgs/createOrg',
+  orgUpdate: '/orgs/updateOrg',
+  orgDelete: '/orgs/deleteOrg',
+
+  entities: '/entities',
+  entityExist: '/entities/exists',
+  entityCreate: '/entities/createEntity',
+  entityUpdate: '/entities/updateEntity',
+  entityDelete: '/entities/deleteEntity',
+
+  units: '/units',
+  unitsExist: '/units/exists',
+  unitsCreate: '/units/createUnit',
+  unitsUpdate: '/units/updateUnit',
+  unitsDelete: '/units/deleteUnit',
+
+  process: '/procdefs',
+  processGet: '/procdefs/getProcDefs',
+  processExist: '/procdefs/exists',
+  processCreate: '/procdefs/createProcDefs',
+  processUpdate: '/procdefs/updateProcDefs',
+  processDelete: '/procdefs/deleteProcDefs',
+  processDeploy: '/procdefs/deployProcDef',
+  processDeployDelete: '/procdefs/deleteDeployment',
+
+  processForm: '/forms',
+  processFormExist: '/forms/exists',
+  processFormCreate: '/forms/createForm',
+  processFormUpdate: '/forms/updateForm',
+  processFormDelete: '/forms/deleteForm',
+
+  subprocess: '/subprocdefs',
+  subprocessById: '/subprocdefs/getSubProcDefs',
+  subprocessExist: '/subprocdefs/exists',
+  subprocessCreate: '/subprocdefs/createSubProcDefs',
+  subprocessUpdate: '/subprocdefs/updateSubProcDefs',
+  subprocessDelete: '/subprocdefs/deleteSubProcDefs',
+
+  subProcessForm: '/procdefs/formdefs',
+  subProcessFormExist: '/procdefs/formdefs/exist',
+  subProcessFormCreate: '/procdefs/formdefs/createProcFormDefs',
+  subProcessFormUpdate: '/procdefs/formdefs/updateProcFormDefs',
+  subProcessFormDelete: '/procdefs/formdefs/deleteProcFormDefs',
+
+  rules: '/ruledefs',
+  rulesById: '/ruledefs/getRuleDefs/',
+  rulesExist: '/ruledefs/exists',
+  rulesCreate: '/ruledefs/createRuleDefs',
+  rulesUpdate: '/ruledefs/updateRuleDefs',
+  rulesDelete: '/ruledefs/deleteRuleDefs',
+
+  statstics: 'statistic/user/task/count',
+  statsticsuser: 'statistic/user/task/count',
+  statsticsgroup: 'statistic/group/task/count',
+  stgraphuser: 'statistic/user/task/trend',
+  stgraphgroup: 'statistic/group/task/trend',
+  stperfuser: 'statistic/user/task/perf',
+  stperfgroup: 'statistic/group/task/perf',
+  stsplituser: 'statistic/user/task/split',
+  stsplitgroup: 'statistic/group/task/split',
+  stsdetailsuser: 'statistic/user/task/detail',
+  stsdetailsgroup: 'statistic/group/task/detail',
+  getusers: 'groups/users',
+};
+
+export default ApiUrls;
+export const alertConstants = {
+  SUCCESS: 'ALERT_SUCCESS',
+  ERROR: 'ALERT_ERROR',
+  CLEAR: 'ALERT_CLEAR',
+};

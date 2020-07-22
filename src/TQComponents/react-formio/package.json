@@ -1,0 +1,113 @@
+{
+  "_from": "react-formio",
+  "_id": "react-formio@3.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-inaqa6ujuHIbUKUWVMqxdbZ6UCqtAhMQtVvh4rktkKGYaI0dm2aPk5usrLgQkKpl5KF7cjlvSCttjF53EhHCEg==",
+  "_location": "/react-formio",
+  "_phantomChildren": {
+    "change-emitter": "0.1.6",
+    "fbjs": "0.8.17",
+    "symbol-observable": "1.2.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-formio",
+    "name": "react-formio",
+    "escapedName": "react-formio",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-formio/-/react-formio-3.0.3.tgz",
+  "_shasum": "2256716fcf5fc274609d4b05fe9a24b99bf97075",
+  "_spec": "react-formio",
+  "_where": "f:\\Murali\\ops-manager",
+  "author": {
+    "name": "Randall Knutson",
+    "email": "randall@form.io"
+  },
+  "bugs": {
+    "url": "https://github.com/formio/react-formio/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "formiojs": "^3.6.6",
+    "prop-types": "^15.6.2",
+    "react-bootstrap": "^0.31.0",
+    "recompose": "^0.23.5",
+    "redux-view": "^0.2.1"
+  },
+  "deprecated": false,
+  "description": "React renderer for form.io forms.",
+  "devDependencies": {
+    "ajv-pack": "^0.2.5",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^6.0.5",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-config-formio": "^1.1.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-mocha": "^5.2.0",
+    "eslint-plugin-react": "^6.0.0",
+    "jsdom": "^9.4.2",
+    "karma": "^3.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-webpack": "^3.0.5",
+    "mocha": "^5.2.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-test-renderer": "^16.5.2",
+    "react-transform-catch-errors": "^1.0.0",
+    "sinon": "^7.0.0",
+    "webpack": "^2.7.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/formio/react-formio#readme",
+  "keywords": [
+    "React",
+    "component",
+    "Formio",
+    "Forms",
+    "react-component"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "react-formio",
+  "peerDependencies": {
+    "react": "^15.3.0 || ^16.0.0",
+    "react-dom": "^15.3.0 || ^16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/formio/react-formio.git"
+  },
+  "scripts": {
+    "build": "babel ./src --ignore=*.spec.js --out-dir ./lib --presets es2015,react,stage-2",
+    "lint": "eslint src",
+    "prepublish": "npm run lint; npm run build",
+    "test": "karma start --single-run",
+    "watch": "babel ./src --watch --ignore=*.spec.js --out-dir ./lib --presets es2015,react,stage-2"
+  },
+  "version": "3.0.3"
+}

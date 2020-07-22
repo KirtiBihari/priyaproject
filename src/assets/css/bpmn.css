@@ -1,0 +1,89 @@
+.contentb,
+.contentb>div {
+  width: 100%;
+  height: 53vh;
+  overflow: hidden;
+}
+
+#properties-panel {
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  right: 0;
+  width: 260px;
+
+ 
+  border-left: 1px solid #ccc;
+  
+}
+
+#properties-panel .djs-properties-panel {
+  padding-bottom: 70px;
+  min-height: 100%;
+}
+
+/* .canvas {
+  display: block;
+} */
+
+body.shown .canvas,
+body.loaded .canvas {
+  display: block;
+}
+
+body.loaded .canvas svg {
+  visibility: hidden;
+}
+
+/* body:not(.shown) .io-export,
+body:not(.shown) .io-zoom-controls {
+  display: none;
+} */
+
+.io-control-list {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
+.io-control-list.io-horizontal,
+.io-control-list.io-horizontal li {
+  display: inline-block;
+}
+
+.io-control-list a,
+.io-control-list a:visited,
+.io-control-list button {
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 26px;
+  color: #555555;
+  background: none;
+  border: none;
+}
+
+.io-control {
+  background: #fff;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  padding: 5px;
+  margin: 0 4px;
+}
+
+.io-editing-tools {
+  width: auto;
+  position: absolute;
+  right: 15px;
+  top: 90px;
+  display: none;
+}
+
+.io-zoom-controls {
+  width: auto;
+  position: fixed;
+  right: 15px;
+  bottom: 90px;
+}

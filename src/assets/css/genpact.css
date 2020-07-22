@@ -1,0 +1,151 @@
+body{background-color: #fafafa;}
+
+.bg {
+    background: #2d46b5;
+    height: 100vh;
+}
+
+
+.header {
+    background-color: #2d46b5 !important;
+}
+
+.login-container{-webkit-box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.24);
+-moz-box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.24);
+box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.24);
+border-radius: 8px;
+}
+
+
+
+.btn-primary {
+    background-color: #2d46b5 !important;
+    border-radius: 8px;
+    font-size: 0.9rem !important;
+    text-transform: capitalize;
+    box-shadow: none !important;
+}
+
+.pagination .page-item.active .page-link {
+    background-color:#2d46b5;
+    color: #ffffff !important;
+}
+
+.card-body button.btn-blue {
+    margin-top: 25px;
+    width: 160px;
+    font-size: 14px;
+    border-radius: 6px;
+    background: #2d46b5!important;
+}
+
+
+.icon-color {
+    background-color: #2d46b5!important;
+}
+
+.logo {
+    width: 240px;
+    background: url("../img/genpact-logo.png") 0% center no-repeat;
+    position: relative;
+    width: 180px;
+    background-size: contain;
+    height: 100px;
+    top: 4px;
+    left: 30px;
+}
+
+.abstract {
+    background: url("../img/abstract-logo.png") 100% center no-repeat;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-size: contain;
+}
+
+
+.login-form-1 {
+    padding: 3% 5%;
+    background: #282726;
+    border-radius: 8px 0px 0px 8px;
+    background-image: url("../img/leftImg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+.btnSubmit {
+    font-weight: 600;
+    width: 100%;
+    background-color: #3d5afe !important;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 3%;
+}
+
+.apptitle {
+    background-image: url("../img/opsmanager.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 200px;
+    background-size: contain;
+    margin: 0px auto;
+}
+
+.applogo {
+    background-image: url("../img/applogo.png");
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    background-size: contain;
+    margin: 0px auto;
+    margin-bottom: 1.8rem;
+    margin-top: 20px;
+}
+
+.applogo-header {
+    background-image: url("../img/applogo.png");
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+}
+
+.btn-success{background-color: #689F38 !important; text-transform: capitalize; border-radius: 8px; font-size: 14px;}
+.btn-default{background-color: #4a535a !important; color: #fff !important; text-transform: capitalize; border-radius: 8px; font-size: 14px; box-shadow: none !important;}
+.btn-danger{background-color: #EF5350 !important; float: right; color: #f2f2f2 !important; text-transform: capitalize; border-radius: 8px; font-size: 14px; box-shadow: none !important;height: 36px;}
+.drag-copy{border: 1px solid #7986CB !important; border-style: dotted !important;}
+.btn-block i{color: #5C6BC0;}
+.formio-component label{font-size: 12px; color: #2d46b5; font-weight: 400;}
+.footer {
+    height: 60px;
+    width: 100%;
+    color: #f2f2f2;
+    font-size: 0.8rem;
+    background: none !important;
+    opacity: 0.8;
+}
+
+
+.card-header button.btn{background: #7986CB; color: #ffffff;}
+#group-container-basic, #group-container-advanced, #group-container-layout, #group-container-data{background:#E8EAF6 !important;}
+
+.footer a {
+    color: #f2f2f2 !important;
+    font-size: 0.9rem;
+    padding-left: 2px;
+}
+
+.tqlogo {
+    background-image: url("../img/tg-logo-white.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    display: block;
+    margin-left: 2px;
+}
+
+

@@ -1,0 +1,20 @@
+.element-properties label {
+  font-weight: bold;
+}
+
+.element-properties label:after {
+  content: ': ';
+}
+
+.element-properties button + button {
+  margin-left: 10px;
+}
+.powered-by-logo{
+  display: none;
+}
+.dmn-js-parent{
+  width: 77% !important;
+}
+.tjs-table .header {
+  background: #fff;
+}

@@ -1,0 +1,5 @@
+export const SIDE_NAV_START = "SIDE_NAV_START";
+export const SIDE_NAV_SUCCESS = "SIDE_NAV_SUCCESS";
+export const SIDE_NAV_FAIL = "SIDE_NAV_FAIL";
+export const SIDE_NAV_PROCESS="SIDE_NAV_PROCESS";
+

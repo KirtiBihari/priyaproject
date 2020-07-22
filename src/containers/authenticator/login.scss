@@ -1,0 +1,152 @@
+
+a {
+    color: #126bc5 !important;
+}
+
+
+.login-container {
+    margin: 0px auto;
+}
+
+
+
+.login-form-1 h3 {
+    text-align: center;
+    margin-bottom: 4%;
+    color: #fff;
+}
+
+.login-form {
+    padding: 3% 4%;
+    background: #fff;
+    border-radius: 0px 8px 8px 0px;
+    /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.login-form h3 {
+    text-align: center;
+    margin-bottom: 2%;
+    color: #414141;
+    font-weight: bold;
+   
+}
+
+.login-form .icon {
+    color: #cccccc;
+}
+
+.md-form .prefix.active {
+    color: #cccccc;
+    padding-top: 10px;
+}
+
+.md-form {
+   
+    margin-bottom: 1rem !important;
+}
+
+.logo {
+    width: 240px;
+    background: url("../../assets/img/default/Oo-logo.png") 0% center no-repeat;
+    position: relative;
+    width: 300px;
+    background-size: contain;
+    height: 100px;
+    top: 4px;
+    left: 30px;
+}
+
+.abstract {
+    background: url("../../assets/img/default/abstract-logo.png") 100% center no-repeat;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-size: contain;
+}
+
+.login-form h6 {
+    text-align: center;
+  
+    color: #414141;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+
+
+.btnForgetPwd {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.btnForgetPwd:hover {
+    text-decoration: none;
+    color: #2196f3;
+}
+
+.forgotpwd {
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.createacc {
+    text-align: right;
+}
+
+.captiontxt {
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+.description {
+    position: absolute;
+    top: 260px;
+    width: 100%;
+}
+
+.description li {
+    list-style: decimal;
+    color: #ffffff;
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+@-webkit-keyframes autofill {
+    to {
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+input:webkit-autofill {
+    background-color: white !important;
+}
+
+.header {
+    background-color: #3d5afe;
+    padding-left: 10px;
+}
+.footer{
+    margin-top: 20px;
+    background: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

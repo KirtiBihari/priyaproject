@@ -1,0 +1,124 @@
+a {
+  color: #126bc5 !important;
+}
+
+.login-container {
+  margin: 0px auto;
+}
+
+.login-form-1 h3 {
+  text-align: center;
+  margin-bottom: 4%;
+  color: #fff;
+}
+
+.login-form {
+  padding: 3% 4%;
+  background: #fff;
+  border-radius: 0px 8px 8px 0px;
+  /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.login-form h3 {
+  text-align: center;
+  margin-bottom: 2%;
+  color: #414141;
+  font-weight: bold;
+  /*margin-top: 4%;*/
+}
+
+.login-form .icon {
+  color: #cccccc;
+}
+
+.md-form .prefix.active {
+  color: #cccccc;
+  padding-top: 10px;
+}
+
+.md-form {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.md-form input {
+  /*width: 80px;*/
+}
+
+.login-form h6 {
+  text-align: center;
+  /*    margin-bottom: 6%;*/
+  color: #414141;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.btnForgetPwd {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.btnForgetPwd:hover {
+  text-decoration: none;
+  color: #2196f3;
+}
+
+.forgotpwd {
+  margin-bottom: 30px;
+  text-align: right;
+}
+
+.createacc {
+  text-align: right;
+}
+
+.captiontxt {
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.description {
+  position: absolute;
+  top: 260px;
+  width: 100%;
+}
+
+.description li {
+  list-style: decimal;
+  color: #ffffff;
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+@-webkit-keyframes autofill {
+  to {
+    background: transparent;
+  }
+}
+
+input:-webkit-autofill {
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+}
+
+input:webkit-autofill {
+  background-color: white ! Important;
+}
+
+.header {
+  background-color: #3d5afe;
+  padding-left: 10px;
+}
+.footer {
+  margin-top: 20px;
+  background: #666666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
